@@ -1,0 +1,26 @@
+<svg width="1050" height="382" viewBox="0 0 1050 382" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_33)">
+<rect width="1050" height="382" fill="url(#paint0_linear_6_33)"/>
+<ellipse cx="1027.5" cy="822.5" rx="829.5" ry="658.5" fill="white" fill-opacity="0.07"/>
+<path d="M1855.5 822.5C1855.5 1185.05 1485.13 1479.5 1027.5 1479.5C569.867 1479.5 199.5 1185.05 199.5 822.5C199.5 459.953 569.867 165.5 1027.5 165.5C1485.13 165.5 1855.5 459.953 1855.5 822.5Z" stroke="white" stroke-opacity="0.11" stroke-width="3"/>
+<circle cx="271" cy="190" r="2" fill="white" fill-opacity="0.4"/>
+<circle cx="467" cy="101" r="2" fill="white" fill-opacity="0.12"/>
+<circle cx="646" cy="193" r="2" fill="white" fill-opacity="0.4"/>
+<circle cx="786" cy="165" r="2" fill="white" fill-opacity="0.12"/>
+<circle cx="855" cy="262" r="2" fill="white" fill-opacity="0.4"/>
+<circle cx="418" cy="233" r="2" fill="white" fill-opacity="0.12"/>
+<circle cx="190" cy="303" r="2" fill="white" fill-opacity="0.4"/>
+<circle cx="271" cy="56" r="2" fill="white" fill-opacity="0.12"/>
+<circle cx="683" cy="49" r="2" fill="white" fill-opacity="0.4"/>
+<circle cx="873" cy="45" r="2" fill="white" fill-opacity="0.12"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_6_33" x1="0" y1="0" x2="891.519" y2="612.628" gradientUnits="userSpaceOnUse">
+<stop stop-color="#000147"/>
+<stop offset="1" stop-color="#391052"/>
+</linearGradient>
+<clipPath id="clip0_6_33">
+<rect width="1050" height="382" fill="white"/>
+</clipPath>
+</defs>
+</svg>
