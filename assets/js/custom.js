@@ -34,6 +34,41 @@
     }
   });
 
+  var words = ["Hacking", "Programming", "Desain"]; // Kata-kata yang ingin ditampilkan
+  var speed = 100; // Kecepatan mengetik (dalam milidetik)
+  var currentWordIndex = 0;
+  var currentWord = words[currentWordIndex];
+  var index = 0;
+
+  function typeWriter() {
+    if (index < currentWord.length) {
+      $('#typing-text').append(currentWord.charAt(index));
+      index++;
+      setTimeout(typeWriter, speed);
+    } else {
+      // Animasi untuk kata berikutnya
+      setTimeout(eraseText, 1000); // Tunggu 1 detik sebelum menghapus
+    }
+  }
+
+  function eraseText() {
+    if (index >= 0) {
+      var currentText = $('#typing-text').text();
+      var newText = currentText.slice(0, -1);
+      $('#typing-text').text(newText);
+      index--;
+      setTimeout(eraseText, speed);
+    } else {
+      // Pindah ke kata berikutnya setelah menghapus
+      currentWordIndex = (currentWordIndex + 1) % words.length;
+      currentWord = words[currentWordIndex];
+      index = 0;
+      setTimeout(typeWriter, 500); // Tunggu setengah detik sebelum mengetik ulang
+    }
+  }
+
+    typeWriter();
+
   $(".filters ul li").click(function () {
     $(".filters ul li").removeClass("active");
     $(this).addClass("active");
